@@ -1,4 +1,3 @@
-
 class Student < User
   attr_accessor :knowledge
 
@@ -7,6 +6,6 @@ class Student < User
   end
 
   def learn(string)
-    knowledge << string
+    @knowledge << string
   end
 end
